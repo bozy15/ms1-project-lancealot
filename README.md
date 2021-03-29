@@ -50,24 +50,24 @@ to see the full content.
 
 ### Strategy
 
-The aim of my project is to attract coders and business to join this website. I plan on doing so with a simple and user-friendly UX and keeping the steps to reach their objective to a minimum.
+The aim of my project is to attract coders and businesses to join this website. I plan on doing so with a simple and user-friendly UX and keeping the steps to reach their objective to a minimum.
 
   - Project Goals
     - Have new coders and businesses sign up
-     -Making the sign up process straight forward and seem effortless, I'll achieve this by having just enough information displayed so they can quickly understand the purpose of the website and how to hire coders and post jobs.
+    - Making the join us process straight forward and seem effortless, I'll achieve this by having just enough information displayed so they can quickly understand the purpose of the website and how to hire coders and post jobs.
     - Keeping the site UI looking clean and not overloaded with information that may distract the user and provide a bad UX.
     
   - User Goals
-    - A fixed navigation bar so the user can navigate easily.
-    - The information on each page is long enough to understand the content but also short enough that they don't feel overwhelmed
+    - A navigation bar so the user can navigate easily.
+    - The information on each section is long enough to understand the content but also short enough that they don't feel overwhelmed
     - Small profile windows of coders so clients can browse potential skill sets of many different developers.
     - A mobile first designed site as some users wish to be able to use this on their phones.
-    - CTA buttons on each page to get the user signed up or to sign in as quickly as possible.
-    - A few site to sign up and doesn't need a membership fee or any fee to post a job.
+    - CTA buttons on most sections to get the user signed up as quickly as possible.
+    - A free site to sign up and doesn't require a membership fee or any fee to post a job.
   
 ### Scope
 
- When planning the approach I'd take on how to design this site I decided a Minimalist Web Design (MWD) was the best style.
+ When planning the approach on how to design this site I decided a Minimalist Web Design (MWD) was the best style.
  
   - Keeps away potential distractions and will insure a clean UX.
   - Suits my current coding level.
@@ -75,31 +75,37 @@ The aim of my project is to attract coders and business to join this website. I 
   
 ### Structure
 
-- The main target of this structure is to allow the user to quickly find the info they need and to sign up.
-- A brief heading on each page with a small paragraph explaining the page the user is on.
-- A fixed navigation bar for easy navigation when scrolling to the bottom of the page.
-- A small selection of currently available coders ready to be contacted to be hired.
-- CTA buttons on each page to get the user to sign in/sign up quick and easily.
+- The main target of this structure is to allow the user to quickly and easily find the info they need and to sign up.
+- A brief heading on each section with a small paragraph, subtitle or images explaining the section the user is on.
+- A navigation bar for easy navigation when scrolling to the bottom of the page.
+- The landing page that will Welcome the user and give a brief introduction about the website.
+- A section Explaining how the website works.
+- A small selection of currently available coders ready and their skill sets.
+- A section showing the user a few of the previous completed projects by the freelancers so the user can seen what can be achieved.
+- CTA buttons on most sections to get the user to sign up quick and easily or to contact us directly.
+- A join us Modal on the index.html too keep the user on the same url so they dont feel like they're being sent somewhere else.
+- A contact us page that will have a short form to fill out, an email address for contacting the support team and an address for the office building.
+- A Terms and Conditions page that will have the T&C's of the website. 
 
 ### Skeleton
 [Wireframes for mobile](assets/docs/wireframe-mobile.pdf): Multiple page site designed for mobiles.
 >
 [Wireframes for desktop](assets/docs/wireframe-desktop.pdf): Multiple page site designed for desktops.
 
-- Home, Looking for coders, looking for projects pages and a sign in page which will have a CTA button for people who need to sign up.
+- How it works, Freelancers, previous projects sections, a Join Us modal, Contact Us page and a Terms and Conditions page 
 
-- Fixed navigation bar with the pseudo class of focus so the user knows what page they're on.
+- A navigation bar with styles so the user knows what page they're on.
 
 - A small section with a heading and some brief info about the site.
 
-- a footer a the bottom of the page with a copyright stamp and link to terms and conditions.
+- A footer a the bottom of the page with a copyright stamp and link to terms and conditions.
 
 - Top priorty for this site:
-  - The layout for each page to be simple and to the point.
-  - A fixed navigation bar.
-  - The brief information about the page the user is on.
+  - The layout for each section to be simple and to the point.
+  - A navigation bar.
+  - The brief information about the section the user is on so after reading or viewing the section the user knows what they're looking at.
   - Working links to bring the user where they need to be.
-  - Footer at the bottom of the page which can b seen by scrolling down
+  - Footer at the bottom of the page which can be seen by scrolling down
 
 ### Surface
 
