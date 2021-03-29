@@ -8,9 +8,39 @@
 }
 
 :root {
-
+    --exo-font:"Exo", sans-serif;
+    --rubik-font:"Rubik", sans-serif;
+    --cairo-font:"Cairo", sans-serif;
 }
 
 body {
     overflow-x: hidden;
+}
+
+/* <-------Header */
+header {
+    background: #6FBBDD;
+    background: linear-gradient(#6416ea, #6FBBDD);
+    padding-bottom: 15rem;
+}
+
+header a {
+    font-family: var(--exo-font);
+    font-size: 1em;
+    font-weight: 400;
+    color: #f5f5f5;
+    padding-right: 1em;
+}
+
+header a:hover {
+    color: #6FBBDD;  
+    font-size: 1.1em;
+}
+
+nav.navbar.navbar-expand-lg {
+    padding-bottom: 11em;
+}
+
+img.img-size {
+    width: 50%;
 }
