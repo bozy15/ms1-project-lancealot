@@ -98,7 +98,7 @@ The aim of my project is to attract coders and businesses to join this website. 
 
 - A small section with a heading and some brief info about the site.
 
-- A footer a the bottom of the page with a copyright stamp and link to terms and conditions.
+- A footer a the bottom of the page with a copyright stamp, a link to terms and conditions and the company logo.
 
 - Top priorty for this site:
   - The layout for each section to be simple and to the point.
