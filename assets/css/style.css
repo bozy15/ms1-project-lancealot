@@ -20,19 +20,19 @@ body {
 /* <-------Header */
 header {
     background: #6FBBDD;
-    background: linear-gradient(#6416ea, #6FBBDD);
+    background: linear-gradient(#b4dfe5, #303c6c);
     padding-bottom: 15rem;
 }
 
 header a {
     font-family: var(--exo-font);
     font-size: 1em;
-    font-weight: 400;
-    color: #f5f5f5;
+    font-weight: 500;
+    color: #f4976c;
 }
 
 header a:hover {
-    color: #6FBBDD;   
+    color: #fbe8a6;   
     font-size: 1.1em;
 }
 
@@ -41,7 +41,7 @@ header .nav-item {
 }
 
 header .nav-item:last-child {
-    padding-right: 5em;
+    padding-right: 2em;
 }
 
 img.img-size {
