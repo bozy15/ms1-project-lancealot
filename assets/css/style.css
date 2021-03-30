@@ -17,13 +17,14 @@ body {
     overflow-x: hidden;
 }
 
-/* <-------Header */
+/* -------Header */
 header {
     background: #6FBBDD;
-    background: linear-gradient(#b4dfe5, #303c6c);
-    padding-bottom: 15rem;
+    background: linear-gradient(#303c6c, #b4dfe5 );
+    padding-bottom: 10rem;
 }
 
+/* -------Navbar */
 header a {
     font-family: var(--exo-font);
     font-size: 1em;
@@ -31,9 +32,10 @@ header a {
     color: #f4976c;
 }
 
+
 header a:hover {
     color: #fbe8a6;   
-    font-size: 1.1em;
+    
 }
 
 header .nav-item {
@@ -44,34 +46,52 @@ header .nav-item:last-child {
     padding-right: 2em;
 }
 
+header .nav-item:last-child a:hover {
+    background-color: #fc7100;
+    border-color: #fc7100;
+    color: #f5f5f5;
+}
+
 img.img-size {
     width: 50%;
     padding-left: 3em;
 }
-
+/* -------End Navbar */
+/* -------Welcome section */
 div .row .col-md-7 {
-    padding-top: 9rem;
+    padding-top: 8rem;
     font-family: var(--cairo-font);
     font-weight: 300;
 }
 
 header div .row .col-md-7 h2 {
-    font-size: 4em;
-    font-weight: 600;
-    color:black;
+    font-size: 8vmin;
+    font-family: var(--exo-font);
+    font-weight: 400;
+    color: #fc7100;
+    letter-spacing: 2px;
     padding-bottom: 0.5rem;
+    
 }
 
 header div .row .col-md-7 p {
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 300;
+    letter-spacing: 1px;
     color: #f5f5f5;
 }
 
 header div .row .col-md-7 a {
-
+    margin-top: 1.3rem;
 }
 
-div .row .col-md-5 {
+header div .row .col-md-7 a:hover {
+    background-color: #fc7100;
+    border-color: #fc7100;
+    color: #f5f5f5;
+}
+
+div .row .col-md-5 { /*Welcome image*/
     padding-top: 6rem;
 }
+/* ------- End Welcome section */
