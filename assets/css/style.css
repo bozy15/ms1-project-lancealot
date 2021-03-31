@@ -22,7 +22,7 @@ body {
 header {
     background: #6FBBDD;
     background: linear-gradient(#303c6c, #b4dfe5 );
-    padding-bottom: 10rem;
+    padding-bottom: 9.5rem;
 }
 
 /* -------Navbar */
@@ -97,6 +97,9 @@ div .row .col-md-5 { /*Welcome image*/
 }
 /* ------- End Welcome section */
 /* ------- How it works section */
+div.about-content {
+    height: 100vmin;
+}
 
 div.about-content>h2 {
     width: 100%;
@@ -105,6 +108,12 @@ div.about-content>h2 {
     font-weight: bold;
     font-size: 4rem;
     letter-spacing: 1px;
+    padding-top: 5vmin;
+}
+
+.about-content .about-cards .card{
+    margin: 1vmin;
+    margin-top: 2em;
 }
 /* ------- End How it works section */
 /* ------- Projects section */
@@ -121,12 +130,31 @@ section.bg-color {
     position: relative;
 }
 
-.cover .content> {
+.cover .content {
     background-color: rgba(180, 223, 229, 0.4);
-    background-size: 50%;
-    border-radius: 40px;
-    background-position: center;
     height: 100%;
     width: 100%;
+    padding-top: 10rem;
+}
+
+.cover .content>h2 {
+    font-family: var(--cairo-font);
+    font-size: 8vmin;
+    color: #fff;
+    text-shadow: 0 0 3px black;
+}
+
+.projects img {
+    width: 17rem;
+    height: 15rem;
+    padding: 0 1em;
+    justify-content: space-evenly;
+}
+
+.project-section .projects {
+    position: relative;
+    width: 17rem;
+    height: 12rem;
+    z-index: 1;
 }
 /* ------- End Projects section */
