@@ -143,10 +143,6 @@ div.about-content>h2 {
     border-radius: 30px;
 }
 
-.about-cards .card-title:second-child {
-    font-size: .5em;
-}
-
 .about-cards .card-text {
     padding: 1vmin 1vmin;
 }
