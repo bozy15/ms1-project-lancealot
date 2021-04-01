@@ -7,10 +7,15 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --exo-font:"Exo", sans-serif;
     --rubik-font:"Rubik", sans-serif;
     --cairo-font:"Cairo", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -187,7 +192,7 @@ section.bg-color {
 
 .cover .content>h2 {
     font-family: var(--cairo-font);
-    font-size: 8vmin;
+    font-size: 10vmin;
     color: #fff;
     text-shadow: 0 0 1px black;
 }
