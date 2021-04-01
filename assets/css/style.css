@@ -120,6 +120,7 @@ div.about-content>h2 {
     margin-top: 2em;
     border-radius: 10px;
     font-family: var(--cairo-font);
+    background-color: rgba(245, 245, 245, 0.5);
 }
 
 .about-cards div {
@@ -138,15 +139,15 @@ div.about-content>h2 {
 .about-cards .card-title {
     padding: 0.5rem 0.5rem;
     margin: .5rem;
-    background-color: rgba(251, 232, 166, 0.6);
+    background-color: #f4976c99;
     border-radius: 30px;
 }
 
 .about-cards a {
     width: 6em;
-    margin-top: 2em;
     font-family: var(--cairo-font);
     font-weight: 500s;
+    margin-top: 1em;
     background-color: #303c6c;
     border-color: #303c6c;
     color: #f5f5f5;
