@@ -109,7 +109,7 @@ div.about-content>h2 {
     font-weight: bold;
     font-size: 4rem;
     color: #f5f5f5;
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 1px black;
     letter-spacing: 1px;
     padding-top: 6vmin;
 }
@@ -189,7 +189,7 @@ section.bg-color {
     font-family: var(--cairo-font);
     font-size: 8vmin;
     color: #fff;
-    text-shadow: 0 0 3px black;
+    text-shadow: 0 0 1px black;
 }
 
 div.box-shadow {
@@ -201,4 +201,21 @@ div.box-shadow {
     height: 20rem;  
 }
 
+.projects h4 {
+    font-family: var(--cairo-font);
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    color: lightslategray;
+    text-shadow: 0 0 1px black;
+}
+
+.projects hr {
+    margin-inline: 3em;
+}
+
+.projects p {
+    margin-inline: 6em;
+    font-family: var(--exo-font);
+    letter-spacing: 1px;
+}
 /* ------- End Projects section */
