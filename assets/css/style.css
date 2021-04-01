@@ -132,7 +132,7 @@ div.about-content>h2 {
     padding: 1.2em;
 }
 
-.about-cards img.card-img-top.br {
+.about-cards img.card-img-top.image-shape {
     border-radius: 50%;
 }
 
@@ -141,6 +141,14 @@ div.about-content>h2 {
     margin: .5rem;
     background-color: #f4976c99;
     border-radius: 30px;
+}
+
+.about-cards .card-title:second-child {
+    font-size: .5em;
+}
+
+.about-cards .card-text {
+    padding: 1vmin 1vmin;
 }
 
 .about-cards a {
