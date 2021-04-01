@@ -224,3 +224,20 @@ div.box-shadow {
     letter-spacing: 1px;
 }
 /* ------- End Projects section */
+/* ------- Freelancer section */
+.Freelancer-section {
+    background: linear-gradient(#b4dfe5, #303c6c);
+}
+
+.Freelancer-section .container h2 {
+    font-family: var(--cairo-font);
+    font-size: 10vmin;
+    font-weight: 300;
+    padding: 12vmin 0;
+}
+
+.Freelancer-section .card {
+    width: 22rem;
+    margin-top: 6vmin;
+}
+/* ------- End Freelancer section */
