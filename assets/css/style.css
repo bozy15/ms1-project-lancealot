@@ -104,8 +104,8 @@ div .row .col-md-5 { /*Welcome image*/
 /* ------- How it works section */
 div.about-content {
     width: 100%;
-    height: 101vmin;
     background: linear-gradient( #f4976c, #fbe8a6);
+    padding-bottom: 2em;
 }
 
 div.about-content>h2 {
@@ -170,7 +170,7 @@ div.about-content>h2 {
 /* ------- Freelancer section */
 .Freelancer-section {
     background: linear-gradient(#b4dfe5, #303c6c);
-    padding-bottom: 2rem;
+    padding-bottom: 6rem;
 }
 
 .Freelancer-section .container h2 {
@@ -183,6 +183,17 @@ div.about-content>h2 {
 .Freelancer-section .card {
     width: 20rem;
     margin-top: 1vmin; 
+    background-color: #f5f5f5bb
+}
+
+.Freelancer-section img {
+    border-radius: 50%;
+    height: 8em;
+    border: 1px solid; 
+}
+
+.Freelancer-section .card-img-top {
+    padding-top: 1em;
 }
 
 .Freelancer-section .card .card-title {
@@ -201,10 +212,14 @@ div.about-content>h2 {
 .Freelancer-section .card .card-text.languages {
     font-weight: var(--rubik-font);
     font-size: 1em;
+    color: #f5f5f5;
+    text-shadow: 0px 2px 4px black;
     margin: 0.25rem 0.25rem;
     padding: .25rem .25rem;
-    background-color: lightskyblue;
+    background-color: rgba(252, 113, 0, 0.5);
     border-radius: .5em;
+    box-shadow: 1px 1px 2px black;;
+
 }
 /* ------- End Freelancer section */
 /* ------- Projects section */
