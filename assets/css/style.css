@@ -192,6 +192,20 @@ div.about-content>h2 {
     letter-spacing: 1px;
 }
 
+.Freelancer-section .card .card-text {
+    font-family: var(--rubik-font);
+    font-size: 1em;
+    letter-spacing: .5px;
+}
+
+.Freelancer-section .card .card-text.languages {
+    font-weight: var(--rubik-font);
+    font-size: 1em;
+    margin: 0.25rem 0.25rem;
+    padding: .25rem .25rem;
+    background-color: lightskyblue;
+    border-radius: .5em;
+}
 /* ------- End Freelancer section */
 /* ------- Projects section */
 
