@@ -15,7 +15,6 @@ html {
     --exo-font:"Exo", sans-serif;
     --rubik-font:"Rubik", sans-serif;
     --cairo-font:"Cairo", sans-serif;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -56,6 +55,7 @@ header .nav-item:last-child a:hover {
     background-color: #fc7100;
     border-color: #fc7100;
     color: #f5f5f5;
+    transition:250ms ease-in;
 }
 
 img.img-size {
@@ -95,9 +95,10 @@ header div .row .col-md-7 a:hover {
     background-color: #fc7100;
     border-color: #fc7100;
     color: #f5f5f5;
+    transition:250ms ease-in;
 }
 
-div .row .col-md-5 { /*Welcome image*/
+div .row .col-md-5 .welcome-img { /*Welcome image*/
     padding-top: 6rem;
 }
 /* ------- End Welcome section */
@@ -165,6 +166,7 @@ div.about-content>h2 {
     background-color: #fc7100;
     border-color: #fc7100;
     color: #f5f5f5;
+    transition:300ms ease-in;
 }
 /* ------- End How it works section */
 /* ------- Freelancer section */
@@ -176,14 +178,16 @@ div.about-content>h2 {
 .Freelancer-section .container h2 {
     font-family: var(--cairo-font);
     font-size: 10vmin;
-    font-weight: 300;
+    font-weight: 400;
     padding: 12vmin 0;
+    color: #f5f5f5;
+    text-shadow: 0px 0px 1px black;
 }
 
 .Freelancer-section .card {
     width: 20rem;
     margin-top: 1vmin; 
-    background-color: #f5f5f5bb
+    background-color: #f5f5f5bb; 
 }
 
 .Freelancer-section img {
@@ -210,7 +214,8 @@ div.about-content>h2 {
 }
 
 .Freelancer-section .card .card-text.languages {
-    font-weight: var(--rubik-font);
+    font-family: var(--cairo-font);
+    font-weight: 500;
     font-size: 1em;
     color: #f5f5f5;
     text-shadow: 0px 2px 4px black;
@@ -219,11 +224,9 @@ div.about-content>h2 {
     background-color: rgba(252, 113, 0, 0.5);
     border-radius: .5em;
     box-shadow: 1px 1px 2px black;;
-
 }
 /* ------- End Freelancer section */
 /* ------- Projects section */
-
 section.bg-color {
     background: linear-gradient(#fbe8a6, #f4976c);
 }
@@ -265,8 +268,8 @@ div.box-shadow {
     font-family: var(--cairo-font);
     font-size: 2.5em;
     letter-spacing: 1px;
-    color: lightslategray;
-    text-shadow: 0 0 1px black;
+    color: #f5f5f5;
+    text-shadow: 0 0 1.5px black;
 }
 
 .projects hr {
@@ -279,3 +282,75 @@ div.box-shadow {
     letter-spacing: 1px;
 }
 /* ------- End Projects section */
+/* ------- Contact section */
+.contact-section {
+    height: 45vmin;
+    background: linear-gradient(#303c6c, #6FBBDD);
+    font-family: var(--exo-font);
+}
+
+.contact-section div.col h2 { 
+    font-weight: 200;
+    font-size: 3em;
+    color: #fc7100;
+    padding: 1em 0 0 0;
+}
+
+.contact-section div.col p {
+    letter-spacing: 1px;
+    color: #363636;
+    font-size: 1.25em;
+    padding-bottom: 1em;
+}
+
+.contact-section div.col a {
+    background-color: #fc7100;
+}
+
+.contact-section div.col a:hover {
+    background-color: #303c6c;
+    border-color: #303c6c;
+    transition:250ms ease-in;
+}
+/* ------- End Contact section */
+/* ------- Footer section */
+footer {
+    background-color: #f4976c8e;
+    height: 50%;
+    padding: 1em 0 1em 2em;
+}
+
+footer img {
+    width: 50%;
+    padding-top: .5rem;
+}
+
+footer .col-md-4.text-right p {
+    padding-top: .75em;
+    letter-spacing: 1px;
+    font-family: var(--rubik-font);
+    font-weight: 500;
+    font-size: 1em;
+    color: #484d52;
+}
+
+footer .col-md-3.text-left {
+    padding-top: .75rem;
+}
+
+footer .col-md-3.text-left a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: var(--rubik-font);
+    font-weight: 500;
+    font-size: 1em;
+    color: #484d52;
+}
+
+footer .col-md-3.text-left a:hover {
+    
+    color: #fff;
+    transition:250ms ease-in;
+    text-shadow: 0px 0px 1.5px black;
+}
+/* ------- End Footer section */
