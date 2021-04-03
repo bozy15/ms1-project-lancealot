@@ -98,7 +98,7 @@ header div .row .col-md-7 a:hover {
     transition:250ms ease-in;
 }
 
-div .row .col-md-5 .welcome-img { /*Welcome image*/
+img.welcome-img { /*Welcome image*/
     padding-top: 6rem;
 }
 /* ------- End Welcome section */
