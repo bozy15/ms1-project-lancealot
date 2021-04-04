@@ -9,6 +9,7 @@
 
 html {
     scroll-behavior: smooth;
+   
 }
 
 :root {
@@ -20,6 +21,10 @@ html {
 body {
     overflow-x: hidden;
     background: #f5f5f5;
+}
+
+main {
+    overflow-x: hidden;
 }
 
 /* -------Header */
@@ -63,7 +68,7 @@ header .nav-item:last-child a:hover {
 }
 
 img.img-size {
-    width: 50%;
+    width: 90%;
 }
 /* -------End Navbar */
 /* -------Join us Modal */
@@ -82,13 +87,13 @@ label a.terms-color {
 }
 /* -------End join us Modal */
 /* -------Welcome section */
-div .row .col-md-7 {
+div .row .col-lg-7 {
     padding-top: 8rem;
     font-family: var(--cairo-font);
     font-weight: 300;
 }
 
-header div .row .col-md-7 h2 {
+header div .row .col-lg-7 h2 {
     font-size: 8vmin;
     font-family: var(--exo-font);
     font-weight: 400;
@@ -99,18 +104,18 @@ header div .row .col-md-7 h2 {
     
 }
 
-header div .row .col-md-7 p {
+header div .row .col-lg-7 p {
     font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: 1px;
     color: #f5f5f5;
 }
 
-header div .row .col-md-7 a {
+header div .row .col-lg-7 a {
     margin-top: 1.3rem;
 }
 
-header div .row .col-md-7 a:hover {
+header div .row .col-lg-7 a:hover {
     background-color: #fc7100;
     border-color: #fc7100;
     color: #f5f5f5;
@@ -119,6 +124,7 @@ header div .row .col-md-7 a:hover {
 
 img.welcome-img { /*Welcome image*/
     padding-top: 6rem;
+    width: inherit;
 }
 /* ------- End Welcome section */
 /* ------- How it works section */
@@ -411,10 +417,11 @@ footer {
     background-color: #f4976c8e;
     height: 50%;
     padding: 1em 0 1em 2em;
+    overflow-x: hidden;
 }
 
 footer img {
-    width: 50%;
+    width: 60%;
     padding-top: .5rem;
 }
 
@@ -473,3 +480,10 @@ section.terms-section dl, ol, ul {
     margin-left: 7.1em;
 }
 /* ------- End Terms section */
+/* ------- Breakpoints */
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 425px) {
+
+}
