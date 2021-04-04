@@ -346,6 +346,62 @@ div.box-shadow {
     border-color: #303c6c;
     transition:250ms ease-in;
 }
+
+form.contact-content {
+    padding: 0 3em;
+    margin-top: -2em;
+    font-family: var(--exo-font);
+}
+
+fieldset {
+    border: 2px solid #f4976c;
+    padding: 3em;
+}
+
+fieldset>legend {
+    font-size: 2em;
+    letter-spacing: .75px;
+    color: #fc7100;
+    text-shadow: 1px 1px 4px black;
+}
+
+label.font-style {
+    font-size: 1.5em;
+    letter-spacing: .75px;
+    color: #f4976c;
+    text-shadow: 1px 1px 4px black;
+}
+
+button.button-style {
+   background-color: #fc7100cc;
+   border-color: #fc7100cc;
+}
+
+button.button-style:hover {
+    background-color: #fc7100;
+    border-color: #fc7100;
+}
+
+div.col-md-5.col-sm-12.jumbotron {
+    margin-top: 4em;
+    font-family: var(--exo-font);
+    background-color:#b4dfe54d;
+    box-shadow: -1px 5px 15px black;
+}
+
+section.email-section h1 {
+    color: #fc7100;
+    font-weight: 200;
+}
+
+span.text-color {
+    color: #f4976c;
+}
+
+section.address-section h1 {
+    color: #fc7100;
+    font-weight: 200;
+} 
 /* ------- End Contact section */
 /* ------- Footer section */
 footer {
