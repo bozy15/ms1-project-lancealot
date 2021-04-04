@@ -240,11 +240,11 @@ img.img-fluid.img-width {
 }
 
 .freelancer-section .card .card-text {
-    font-family: var(--rubik-font);
+    font-family: var(--exo-font);
     font-size: 1em;
     letter-spacing: 1px;
     color: #f5f5f5;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 .freelancer-section .card .card-text.languages {
