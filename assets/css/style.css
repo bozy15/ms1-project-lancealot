@@ -75,6 +75,7 @@ header div .row .col-md-7 h2 {
     font-family: var(--exo-font);
     font-weight: 400;
     color: #fc7100;
+    text-shadow: -1px 1px 0px black;
     letter-spacing: 2px;
     padding-bottom: 0.5rem;
     
@@ -112,10 +113,10 @@ div.about-content {
 div.about-content>h2 {
     height: 20vmin;
     font-family: var(--exo-font);
-    font-weight: bold;
+    font-weight: 300;
     font-size: 4rem;
     color: #f5f5f5;
-    text-shadow: 0 0 1px black;
+    text-shadow: -1px 1px 4px black;
     letter-spacing: 1px;
     padding-top: 6vmin;
 }
@@ -127,6 +128,7 @@ div.about-content>h2 {
     border-radius: 10px;
     font-family: var(--cairo-font);
     background-color: rgba(245, 245, 245, 0.5);
+    box-shadow: -1px 1px 22px black;
 }
 
 .about-cards div {
@@ -180,20 +182,21 @@ div.about-content>h2 {
     font-size: 10vmin;
     font-weight: 400;
     padding: 12vmin 0;
-    color: #f5f5f5;
-    text-shadow: 0px 0px 1px black;
+    color: #fc7100;
+    text-shadow: -1px 1px 4px black;
 }
 
 .Freelancer-section .card {
     width: 20rem;
     margin-top: 1vmin; 
-    background-color: #f5f5f5bb; 
+    background-color: #303c6c66;
+    border: 1px solid #fc710066 ; 
 }
 
 .Freelancer-section img {
     border-radius: 50%;
     height: 8em;
-    border: 1px solid; 
+    border: 1px solid #fc7100; 
 }
 
 .Freelancer-section .card-img-top {
@@ -203,14 +206,21 @@ div.about-content>h2 {
 .Freelancer-section .card .card-title {
     font-family: var(--cairo-font);
     font-size: 1.5em;
-    font-weight: bold;
+    font-weight: 300;
+    color: #f5f5f5;
     letter-spacing: 1px;
+}
+
+.Freelancer-section .card hr {
+    background-color: #fc710066;
 }
 
 .Freelancer-section .card .card-text {
     font-family: var(--rubik-font);
     font-size: 1em;
-    letter-spacing: .5px;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+    font-weight: 300;
 }
 
 .Freelancer-section .card .card-text.languages {
@@ -250,9 +260,9 @@ section.bg-color {
 
 .cover .content>h2 {
     font-family: var(--cairo-font);
-    font-size: 10vmin;
+    font-size: 7vmin;
     color: #fff;
-    text-shadow: 0 0 1px black;
+    text-shadow: -1px 1px 3px black;
 }
 
 div.box-shadow {
