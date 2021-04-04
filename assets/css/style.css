@@ -9,7 +9,7 @@
 
 html {
     scroll-behavior: smooth;
-   
+    overflow-x: hidden;
 }
 
 :root {
@@ -23,9 +23,7 @@ body {
     background: #f5f5f5;
 }
 
-main {
-    overflow-x: hidden;
-}
+
 
 /* -------Header */
 header {
@@ -482,6 +480,25 @@ section.terms-section dl, ol, ul {
 /* ------- End Terms section */
 /* ------- Breakpoints */
 @media only screen and (max-width: 768px) {
+    /* ------- About us Breakpoint */
+div.about-content>h2{
+    height: 27vmin;
+}
+
+ div.about-cards {
+     padding: 4em;
+ }
+
+ .about-cards a {
+     margin-top: 2.2em;
+ }
+ /* ------- Contact Us Breakpoint */
+ div.contact-section.container-fluid.justify-content-center {
+     height: 35vmin;
+ }
+ div.contact-section div.row.text-center {
+    padding-top: 3.5em;
+ }
 
 }
 @media only screen and (max-width: 425px) {
