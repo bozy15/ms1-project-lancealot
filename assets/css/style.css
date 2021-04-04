@@ -63,6 +63,21 @@ img.img-size {
     padding-left: 3em;
 }
 /* -------End Navbar */
+/* -------Join us Modal */
+div.modal-content {
+    background-color: #fc7100cc;
+    font-family: var(--exo-font);
+    color: whitesmoke;
+}
+
+label.btn.btn-primary.gap-between {
+    margin-right: .2em;
+}
+
+label a.terms-color {
+    color: #6FBBDD;
+}
+/* -------End join us Modal */
 /* -------Welcome section */
 div .row .col-md-7 {
     padding-top: 8rem;
@@ -172,12 +187,12 @@ div.about-content>h2 {
 }
 /* ------- End How it works section */
 /* ------- Freelancer section */
-.Freelancer-section {
+.freelancer-section {
     background: linear-gradient(#b4dfe5, #303c6c);
     padding-bottom: 6rem;
 }
 
-.Freelancer-section .container h2 {
+.freelancer-section .container h2 {
     font-family: var(--cairo-font);
     font-size: 10vmin;
     font-weight: 400;
@@ -186,24 +201,28 @@ div.about-content>h2 {
     text-shadow: -1px 1px 4px black;
 }
 
-.Freelancer-section .card {
+.freelancer-section .card {
     width: 20rem;
     margin-top: 1vmin; 
     background-color: #303c6c66;
     border: 1px solid #fc710066 ; 
 }
 
-.Freelancer-section img {
+.freelancer-section img {
     border-radius: 50%;
     height: 8em;
     border: 1px solid #fc7100; 
 }
 
-.Freelancer-section .card-img-top {
+.freelancer-section .card-img-top {
     padding-top: 1em;
 }
 
-.Freelancer-section .card .card-title {
+img.img-fluid.img-width {
+    width: 40%;
+}
+
+.freelancer-section .card .card-title {
     font-family: var(--cairo-font);
     font-size: 1.5em;
     font-weight: 300;
@@ -211,11 +230,16 @@ div.about-content>h2 {
     letter-spacing: 1px;
 }
 
-.Freelancer-section .card hr {
+.freelancer-section .card .card-text.font-style {
+    font-size: .75em;
+    color: #f5f5f5cc;
+}
+
+.freelancer-section .card hr {
     background-color: #fc710066;
 }
 
-.Freelancer-section .card .card-text {
+.freelancer-section .card .card-text {
     font-family: var(--rubik-font);
     font-size: 1em;
     letter-spacing: 1px;
@@ -223,7 +247,7 @@ div.about-content>h2 {
     font-weight: 300;
 }
 
-.Freelancer-section .card .card-text.languages {
+.freelancer-section .card .card-text.languages {
     font-family: var(--cairo-font);
     font-weight: 500;
     font-size: 1em;

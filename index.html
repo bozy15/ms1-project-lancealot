@@ -38,7 +38,8 @@
                             <a class="nav-link" href="#projects-section">Previous Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-primary" data-toggle="modal" data-target="#join-us-modal">Join Us</a>
+                            <a class="nav-link btn btn-primary" data-toggle="modal" data-target="#join-us-modal">Join
+                                Us</a>
                         </li>
                     </ul>
                 </div>
@@ -46,50 +47,58 @@
         </div>
         <!-- /.Navbar -->
         <!-- Join us Modal -Credit:https://getbootstrap.com/docs/4.6/components/modal/ -->
-        <div class="modal fade" id="join-us-modal" tabindex="-1" aria-labelledby="join-us-Modal-Label" aria-hidden="true">
+        <div class="modal fade" id="join-us-modal" tabindex="-1" aria-labelledby="join-us-Modal-Label"
+            aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="join-us-Modal-Label">Join Us today</h5>
+                        <h5 class="modal-title" id="join-us-Modal-Label">Join Lance-A-lot Today</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <div class="form-group">
-                            <label for="join-us-email" >Email</label>
-                            <input type="email" class="form-control" id="join-us-email" placeholder="Enter your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="join-us-password">Password</label>
-                            <input type="password" class="form-control" id="join-us-password"  placeholder="Enter your Password" required>
-                        </div>    
-                        <div class="form-group">
-                            <label for="repeat-password">Re-enter Password</label>
-                            <input type="password" class="form-control" id="repeat-password" placeholder="Repeat your Password" required>
-                        </div>
-                        <div class="form-group text-center">
-                            <h5>I'm looking for a:</h5>
-                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                <label class="btn btn-primary active">
-                                    <input type="radio" name="choice" id="choice-1"> Freelancer
-                                </label>
-                                <label class="btn btn-primary">
-                                    <input type="radio" name="choice" id="choice-2"> Project
-                                </label>
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Enter your Email" required>
                             </div>
-                        </div>
-                        <div class="text-center">
-                            <div class="form-check form-group">
-                                <input class="form-check-input" type="checkbox" value="" id="t&c-checkbox" required>
-                                <label for="t&c-checkbox" class="form-check-label">
-                                    I agree that I have read the <a href="#" target="_blank" rel="noopener">Terms and Conditions</a>
-                                </label>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" name="password"
+                                    placeholder="Enter your Password" required>
                             </div>
-                            <div>
-                                <a href="#" rel="noopener" target="_self" type="submit" class="btn btn-primary">Submit</a>
+                            <div class="form-group">
+                                <label for="repeat-password">Re-enter Password</label>
+                                <input type="password" class="form-control" id="repeat-password" name="repeat-password"
+                                    placeholder="Repeat your Password" required>
                             </div>
-                        </div>
+                            <div class="form-group text-center">
+                                <h5>I'm looking for a:</h5>
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-primary gap-between active">
+                                        <input type="radio" name="choice" id="choice-1"> Freelancer
+                                    </label>
+                                    <label class="btn btn-primary">
+                                        <input type="radio" name="choice" id="choice-2"> Project
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <div class="form-check form-group">
+                                    <input class="form-check-input" type="checkbox" value="" id="t&c-checkbox" required>
+                                    <label for="t&c-checkbox" class="form-check-label">
+                                        I agree that I have read the <a class="terms-color" href="#" target="_blank"
+                                            rel="noopener">Terms and Conditions</a>
+                                    </label>
+                                </div>
+                                <div>
+                                    <a href="#" rel="noopener" target="_self" type="submit"
+                                        class="btn btn-primary">Submit</a>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -172,7 +181,7 @@
         </section>
         <!-- /.How it works section -->
         <!-- Freelancer section -->
-        <section id="freelancer-section" class="Freelancer-section">
+        <section id="freelancer-section" class="freelancer-section">
             <div class="container text-center">
                 <h2>Some of our Expert Talent</h2>
             </div>
@@ -181,24 +190,29 @@
                 <div class="col-md-4 text-center">
                     <div class="card mr-2 shadow-lg d-inline-block">
                         <div class="card-img-top">
-                            <img src="/assets/images/profile-1.jpg" alt="Freelancer profile picture" class="img-fluid">
+                            <img src="/assets/images/profile-5.png" alt="Freelancer profile picture" class="img-fluid">
                         </div>
                         <div class="card-body text-center">
-                            <h4 class="card-title">Josh Mahoney</h4>
-                            <hr>
-                            <p class="card-text">Brief summary of the persons skills</p>
+                            <h4 class="card-title">Keanu Norman</h4>
+                            <p class="card-text font-style">Software Engineer</p>
+                            <hr>                          
+                            <p class="card-text">
+                                Keanu is a software developer with vast amounts of experience
+                                 in writing code. He loves working with Python and Django and applying his
+                                machine learning knowledge to his builds.
+                            </p>              
                             <div class="d-flex flex-row flex-wrap justify-content-center">
                                 <div>
-                                    <p class="card-text languages">html</p>
+                                    <p class="card-text languages">HTML5</p>
                                 </div>
                                 <div>
-                                    <p class="card-text languages">html</p>
+                                    <p class="card-text languages">CSS3</p>
                                 </div>
                                 <div>
-                                    <p class="card-text languages">html</p>
+                                    <p class="card-text languages">Python</p>
                                 </div>
                                 <div>
-                                    <p class="card-text languages">html</p>
+                                    <p class="card-text languages">Machine learning</p>
                                 </div>
                             </div>
                         </div>
@@ -213,25 +227,30 @@
                             <div class="carousel-item active text-center">
                                 <div class="card mr-2 shadow-lg d-inline-block">
                                     <div class="card-img-top">
-                                        <img src="/assets/images/profile-1.jpg" alt="Freelancer profile picture"
+                                        <img src="/assets/images/profile-2.png" alt="Freelancer profile picture"
                                             class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h4 class="card-title">Josh Mahoney</h4>
+                                        <h4 class="card-title">Samera Woods</h4>
+                                        <p class="card-text font-style">Software Engineer</p>
                                         <hr>
-                                        <p class="card-text">Brief summary of the persons skills</p>
+                                        <p class="card-text">
+                                            Samera is a passionate software developer who is
+                                             master at Javascript. Having previously worked at google she 
+                                             has great experience in leading teams to build powerful software tools and apps.
+                                            </p>
                                         <div class="d-flex flex-row flex-wrap justify-content-center">
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">Javascript</p>
                                             </div>
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">AngularJS</p>
                                             </div>
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">Drupal</p>
                                             </div>
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">Android</p>
                                             </div>
                                         </div>
                                     </div>
@@ -242,25 +261,30 @@
                             <div class="carousel-item text-center">
                                 <div class="card mr-2 shadow-lg d-inline-block">
                                     <div class="card-img-top">
-                                        <img src="/assets/images/profile-1.jpg" alt="Freelancer profile picture"
+                                        <img src="/assets/images/profile-1.png" alt="Freelancer profile picture"
                                             class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h4 class="card-title">Josh Mahoney</h4>
+                                        <h4 class="card-title">Suhaib Reader</h4>
+                                        <p class="card-text font-style">Software Engineer</p>
                                         <hr>
-                                        <p class="card-text">Brief summary of the persons skills</p>
+                                        <p class="card-text">
+                                            Suhaib is a brilliant test-driven software engineer with many years under his belt
+                                            He is a specialist in data analysis and is known for his ability to clean, transform
+                                            and model any data that is given to him.  
+                                        </p>
                                         <div class="d-flex flex-row flex-wrap justify-content-center">
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">Data analyst</p>
                                             </div>
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">iOS</p>
                                             </div>
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">MYSQL</p>
                                             </div>
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">Angular</p>
                                             </div>
                                         </div>
                                     </div>
@@ -271,25 +295,30 @@
                             <div class="carousel-item text-center">
                                 <div class="card mr-2 shadow-lg d-inline-block">
                                     <div class="card-img-top">
-                                        <img src="/assets/images/profile-1.jpg" alt="Freelancer profile picture"
+                                        <img src="/assets/images/profile-3.png" alt="Freelancer profile picture"
                                             class="img-fluid">
                                     </div>
                                     <div class="card-body">
-                                        <h4 class="card-title">Josh Mahoney</h4>
+                                        <h4 class="card-title">Dylon Peck</h4>
+                                        <p class="card-text font-style">Software Engineer</p>
                                         <hr>
-                                        <p class="card-text">Brief summary of the persons skills</p>
+                                        <p class="card-text">
+                                            Dylon is a driven Full stack web developer who specializes in web development
+                                            and thrives in enviroments that embrace new technologies. He provides well writen 
+                                            and heavily tested code for both front and backend projects.  
+                                        </p>
                                         <div class="d-flex flex-row flex-wrap justify-content-center">
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">Full Stack web developer</p>
                                             </div>
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">React</p>
                                             </div>
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">Flask</p>
                                             </div>
                                             <div>
-                                                <p class="card-text languages">html</p>
+                                                <p class="card-text languages">Django</p>
                                             </div>
                                         </div>
                                     </div>
@@ -303,24 +332,29 @@
                 <div class="col-md-4 text-center">
                     <div class="card mr-2 shadow-lg d-inline-block">
                         <div class="card-img-top">
-                            <img src="/assets/images/profile-1.jpg" alt="Freelancer profile picture" class="img-fluid">
+                            <img src="/assets/images/profile-4.png" alt="Freelancer profile picture" class="img-fluid img-width">
                         </div>
                         <div class="card-body">
-                            <h4 class="card-title">Josh Mahoney</h4>
+                            <h4 class="card-title">Siraj Knowles</h4>
+                            <p class="card-text font-style">Software Engineer</p>
                             <hr>
-                            <p class="card-text">Brief summary of the persons skills</p>
+                            <p class="card-text">
+                                Siraj is a senior Expert web developer who is a seasoned full-stack developer
+                                with in depth knowledge of Ruby, Javascript and SQL. She is passionate about 
+                                solving challenging problems that others find too difficult.
+                            </p>
                             <div class="d-flex flex-row flex-wrap justify-content-center">
                                 <div>
-                                    <p class="card-text languages">html</p>
+                                    <p class="card-text languages">Python</p>
                                 </div>
                                 <div>
-                                    <p class="card-text languages">html</p>
+                                    <p class="card-text languages">Javascript</p>
                                 </div>
                                 <div>
-                                    <p class="card-text languages">html</p>
+                                    <p class="card-text languages">SQL</p>
                                 </div>
                                 <div>
-                                    <p class="card-text languages">html</p>
+                                    <p class="card-text languages">Ruby</p>
                                 </div>
                             </div>
                         </div>
@@ -349,12 +383,12 @@
                                         alt="Car dealership website project">
                                     <h4>Car Dealership Website</h4>
                                     <hr>
-                                    <p>
+                                    <!--<p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium
                                         similique
                                         repudiandae
                                         dignissimos, consequuntur molestiae totam eum id dolore aperiam!
-                                    </p>
+                                    </p>-->
                                 </div>
                             </div>
                             <!-- /.First project item -->
