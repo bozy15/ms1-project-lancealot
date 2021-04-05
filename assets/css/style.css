@@ -66,8 +66,9 @@ header .nav-item:last-child a:hover {
     transition:250ms ease-in;
 }
 
-img.img-size {
+img.logo-size {
     width: 90%;
+    height: 2em;
 }
 /* -------End Navbar */
 /* -------Join us Modal */
@@ -123,7 +124,8 @@ header div .row .col-lg-7 a:hover {
 
 img.welcome-img { /*Welcome image*/
     padding-top: 6rem;
-    width: inherit;
+    width: fit-content;
+    height: 28em;
 }
 /* ------- End Welcome section */
 /* ------- How it works section */
@@ -131,6 +133,11 @@ div.about-content {
     width: 100%;
     background: linear-gradient( #f4976c, #fbe8a6);
     padding-bottom: 2em;
+}
+
+img.card-img-top {
+    width: 100%;
+    height: 12.5em;
 }
 
 div.about-content>h2 {
@@ -224,6 +231,12 @@ div.about-content>h2 {
 
 .freelancer-section .card-img-top {
     padding-top: 1em;
+
+}
+
+img.img-size {
+    width: 50%;
+    height: 9.5rem;
 }
 
 img.img-fluid.img-width {
@@ -303,7 +316,13 @@ div.box-shadow {
 }
 
 .projects img {
-    height: 20rem;  
+    height: 20rem; 
+    width: 50%; 
+}
+
+img.img-width {
+    width: 70%;
+    height: 20rem;
 }
 
 .projects h4 {
@@ -416,6 +435,7 @@ footer {
 
 footer img {
     width: 60%;
+    height: 3em;
     padding-top: .5rem;
 }
 
