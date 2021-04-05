@@ -33,10 +33,6 @@ header {
 }
 
 /* -------Navbar */
-div.navbar-brand {
-    position: absolute;
-}
-
 header a {
     font-family: var(--exo-font);
     font-size: 1em;
@@ -48,6 +44,11 @@ header a {
 header a:hover {
     color: #fbe8a6;   
     
+}
+
+i.fa-align-right:before {
+    font-size: 2rem;
+    color: #fc7100;
 }
 
 header .nav-item {
@@ -103,7 +104,7 @@ header div .row .col-lg-7 h2 {
 }
 
 header div .row .col-lg-7 p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
     letter-spacing: 1px;
     color: #f5f5f5;
@@ -517,6 +518,12 @@ div.about-content>h2{
 
 }
 @media only screen and (max-width: 425px) {
+
+    i.fa-align-right:before {
+    font-size: 1.4rem;
+    color: #fc7100;
+    }  
+
     /* -------- Contact Us Breakpoint */
     div.contact-section.container-fluid.justify-content-center {
         height: 90vmin;
