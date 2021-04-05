@@ -117,20 +117,20 @@ The aim of my project is to attract coders and businesses to join this website. 
  > The blues and oranges on the page are quite inviting and energetic which I found could be applied to this website 
  as I wish to drawn people n but also match the energy of a fast-paced web developer.
     - I went with 3 types of blues: #303c6c, #B4dfe5, d2fdff. I read on [The psychology of color](https://99designs.ie/blog/creative-inspiration/psychology-color-web-design/)
-    about the uses of different colors how the impact the user. Blue is associated with dependability and so I thought it
+    about the uses of different colors how the impact the user. Blue is associated with dependability, and so I thought it
     was a fitting choice.
 
   > - I contrasted the blue colors with a pastel orange and yellow: #f4976c, #fbe8a6. The orange colour will draw
     attention to the sections or words I style it to and the lighter yellow radiates a feeling of energy which again 
     I want to give the user the sense they are somewhere dependable and also has a good energy within the Freelancers.
 
-   > - I used a whitesmoke: #f5f5f5 for the text or a deep colored orange:#fc7100 to catch the users attention like for navigation links. 
+   > - I used a whitesmoke: #f5f5f5 for the text or a deep colored orange:#fc7100 to catch the user's attention like for navigation links. 
 
 ##### Images
 > - The Images that I will select will reflect the professional, but also relaxed enviroment I have envisioned for this page.
 
 ##### Typography
-> - I will used "Cairo", "Exo" and "Rubik" on multiple sections all depending on what I want to achieve with the style.
+> - I will use "Cairo", "Exo" and "Rubik" on multiple sections all depending on what I want to achieve with the style.
     I will use "Exo" on the welcome section as I feel it gives off a high tech feel. I'll use "Cairo" and "Rubik" on other sections
     that require more comprehension, like the terms and conditions page.
 
@@ -143,7 +143,7 @@ The aim of my project is to attract coders and businesses to join this website. 
 >
 >CSS3
 
-#### Intergrations
+#### Intergration
 > BOOTSTRAP v4.6
 >
 > FontAwesome
@@ -182,7 +182,7 @@ The aim of my project is to attract coders and businesses to join this website. 
 > - Tested the radio button on the join us modal to insure only one button can be selected.
 > - Tested the 3 HTML files on [HTML Validation](https://validator.w3.org/) No errors were found.
 > - Tested the style.css on [CSS Validation](https://jigsaw.w3.org/css-validator/) no errors were found.
-> - Tested the webpage on Google Lighthouse and got a score of 90, a few issues I needed to fix were I was missing 
+> - Tested the webpage on Google Lighthouse and got a score of 90, a few issues I needed to fix where I was missing 
 <meta> tags and the images I had used on the website had not been given any height or width.
 
 
@@ -193,14 +193,14 @@ The aim of my project is to attract coders and businesses to join this website. 
    CSS - [CSS validator](https://jigsaw.w3.org/css-validator/)
 
 ## Issues I had to overcome
-> - About-section cards were aligning fine on desktop but weren't very responsive. They would either be to large and over lapping or overflowing onto the tnext section.
+> - About-section cards were aligning fine on desktop but weren't very responsive. They would either be to large and overlapping or overflowing onto the next section.
 my solution after many attempts I added the bootstrap class of col-sm-12, col-md-4 and col-lg-2. This sorted out
-the aligning issue but now the card would take up the whole screen on smaller devices so I used custom css and addded padding and margin to achieve the final look.
+the aligning issue but now the card would take up the whole screen on smaller devices, so I used custom css and added padding and margin to achieve the final look.
 > - The content of the footer was aligned nicely on medium-large screens thanks to the custom css and bootstrap classes 
 but I ran into issues when trying on smaller screens as the content would wrap on either side or over flow onto the site logo.
-I solved this by creating a breakpoint and limiting it to 425px and then applying the relevant css to achieve the centere content.
-> - I had used position: absolute; on my navbar-brand img to prevent my nav-links from wrapping as the screen got smaller and in doind so the hamburger menu was now hiding behind the logo.
-It was un able to open as so removed the position css and also replaced the navbar-brand container from a div to an anchor tag to reduce sizing which solved both issues.
+I solved this by creating a breakpoint and limiting it to 425px and then applying the relevant css to achieve the center content.
+> - I had used position: absolute; on my navbar-brand img to prevent my nav-links from wrapping as the screen got smaller and in doing so the hamburger menu was now hiding behind the logo.
+It was unable to open as so removed the position css and also replaced the navbar-brand container from a div to an anchor tag to reduce sizing which solved both issues.
 
 
 ## Credits
@@ -209,15 +209,15 @@ It was un able to open as so removed the position css and also replaced the navb
 > - [Slack](https://app.slack.com/client/T0L30B202/CPCT0MBKL/thread/CGWQJQKC5-1559844764.046500): If I was stuck on a problem chances are there was already a solution on here.
 > - Images were taken from a free to use website [Hiclipart](https://www.hiclipart.com/) and [Google](https://www.google.ie/) only images with a creative common license were used.
 > - [Bootstrap v4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was used in the layout of this website
-> - [Stack overflow](https://stackoverflow.com/) as a general resource if I couldnt find a solution on slack community.  
-> - [Akshay](https://github.com/akashyap2013) took inspiration form aksay when building my website
+> - [Stack overflow](https://stackoverflow.com/) as a general resource if I couldn't find a solution on slack community.  
+> - [Akshay](https://github.com/akashyap2013) took inspiration form Aksay when building my website
 > - [CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) When trying to wrap me head around how flex-box work.
 > - [Kevin Powell](https://www.youtube.com/watch?v=WlGQdgy-M6w) How I learned about box-sizing and saved me from alot of sizing issues.
 > - [T&C's](https://www.termsandconditionsgenerator.com/) The website I used for creating my terms and conditions.
 > - [Logo maker](https://www.ucraft.com/free-logo-maker) Used to create the site logo.
-> - [Colour palette](https://coolors.co/223843-eff1f3-dbd3d8-d8b4a0-d77a61) Used to create my colours for this webpage.
-> - [Psychology of colors](https://99designs.ie/blog/creative-inspiration/psychology-color-web-design/#:~:text=The%20psychology%20of%20color%20can,is%20based%20solely%20on%20color.) Helped in the research process for deciding what colours to use.
+> - [Colour palette](https://coolors.co/223843-eff1f3-dbd3d8-d8b4a0-d77a61) Used to create my colors for this web page.
+> - [Psychology of colors](https://99designs.ie/blog/creative-inspiration/psychology-color-web-design/#:~:text=The%20psychology%20of%20color%20can,is%20based%20solely%20on%20color.) Helped in the research process for deciding what colors to use.
 
-## Acknowledgements
+## Acknowledgments
 > - I'd love to thank my mentor who helped guide my project in the right direction.
 > - I'd also like to thank the Slack community who always go above and beyond in helping their fellow student.
