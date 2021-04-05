@@ -355,7 +355,7 @@ div.box-shadow {
 }
 
 form.contact-content {
-    padding: 0 3em;
+    padding: 5em 3em;
     margin-top: -2em;
     font-family: var(--exo-font);
 }
@@ -532,6 +532,10 @@ div.about-content>h2{
     }
 
     .col-md-3.txt-left {
+        text-align: center;
+    }
+    /* -------- Terms footer Breakpoint */
+    .col-md-6 {
         text-align: center;
     }
 
