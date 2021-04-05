@@ -509,7 +509,7 @@ div.about-content>h2{
  }
  /* ------- Contact Us Breakpoint */
  div.contact-section.container-fluid.justify-content-center {
-     height: 35vmin;
+     height: 55vmin;
  }
  div.contact-section div.row.text-center {
     padding-top: 1.5em;
