@@ -423,7 +423,15 @@ footer img {
     padding-top: .5rem;
 }
 
-footer .col-md-4.text-right p {
+.txt-right {
+    text-align: right;
+}
+
+.txt-left {
+    text-align: left;
+}
+
+footer .col-md-4.txt-right p {
     padding-top: .75em;
     letter-spacing: 1px;
     font-family: var(--rubik-font);
@@ -432,11 +440,11 @@ footer .col-md-4.text-right p {
     color: #484d52;
 }
 
-footer .col-md-3.text-left {
+footer .col-md-3.txt-left {
     padding-top: .75rem;
 }
 
-footer .col-md-3.text-left a {
+footer .col-md-3.txt-left a {
     text-decoration: none;
     letter-spacing: 1px;
     font-family: var(--rubik-font);
@@ -445,7 +453,7 @@ footer .col-md-3.text-left a {
     color: #484d52;
 }
 
-footer .col-md-3.text-left a:hover {
+footer .col-md-3.txt-left a:hover {
     
     color: #fff;
     transition:250ms ease-in;
@@ -479,6 +487,13 @@ section.terms-section dl, ol, ul {
 }
 /* ------- End Terms section */
 /* ------- Breakpoints */
+
+@media only screen and (max-width: 1024px){
+    div.contact-section div.row.text-center {
+    padding-top: 3.5em;
+ }
+}
+
 @media only screen and (max-width: 768px) {
     /* ------- About us Breakpoint */
 div.about-content>h2{
@@ -497,10 +512,27 @@ div.about-content>h2{
      height: 35vmin;
  }
  div.contact-section div.row.text-center {
-    padding-top: 3.5em;
+    padding-top: 1.5em;
  }
 
 }
 @media only screen and (max-width: 425px) {
+    /* -------- Contact Us Breakpoint */
+    div.contact-section.container-fluid.justify-content-center {
+        height: 90vmin;
+    }
+    /* -------- Footer Breakpoint */
+    .col-md-5.txt-left{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .col-md-4.txt-right p {
+        text-align: center;
+    }
+
+    .col-md-3.txt-left {
+        text-align: center;
+    }
 
 }
