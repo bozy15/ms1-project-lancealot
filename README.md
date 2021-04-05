@@ -120,11 +120,11 @@ The aim of my project is to attract coders and businesses to join this website. 
     about the uses of different colors how the impact the user. Blue is associated with dependability and so I thought it
     was a fitting choice.
 
-    - I contrasted the blue colors with a pastel orange and yellow: #f4976c, #fbe8a6. The orange colour will draw
+  > - I contrasted the blue colors with a pastel orange and yellow: #f4976c, #fbe8a6. The orange colour will draw
     attention to the sections or words I style it to and the lighter yellow radiates a feeling of energy which again 
     I want to give the user the sense they are somewhere dependable and also has a good energy within the Freelancers.
 
-    - I used a whitesmoke: #f5f5f5 for the text or a deep colored orange:#fc7100 to catch the users attention like for navigation links. 
+   > - I used a whitesmoke: #f5f5f5 for the text or a deep colored orange:#fc7100 to catch the users attention like for navigation links. 
 
 ##### Images
 > - The Images that I will select will reflect the professional, but also relaxed enviroment I have envisioned for this page.
