@@ -1,9 +1,9 @@
 # Lance-A-Lot
-**NOTE:** *Lance-a-lot is a fictious website created for my first Milestone project for The Code Institute.*
+**NOTE:** *Lance-a-lot is a fictitious website created for my first Milestone project for The Code Institute.*
 
-Lance-a-lot is a new online freelance company that targets coders of all experiences and pairs them with web development jobs that are posted by indiviuals
+Lance-a-lot is a new online freelance company that targets coders of all experiences and pairs them with web development jobs that are posted by individuals
 or businesses. The idea behind the company is to create a secure online workplace, where clients can post a job,
-browse potential coders for said job and also pay through the website. The coders can also see a job and enquire about working on it.
+browse potential coders for said job and also pay through the website. The coders can also see a job and inquire about working on it.
 
 *insert image of website on different displays here:*
 
@@ -29,7 +29,7 @@ browse potential coders for said job and also pay through the website. The coder
 ## UX
 
 While researching websites of a similar concept I had found that a few of them felt overloaded with text or images, unattractive colour schemes,
-poor layout of the sites purpose, for example; excessive scrolling to find what the site is advertised for. I had also spotted on a small number of these sites the
+poor layout of the sites purpose, for example; excessive scrolling to find what the site is advertised for. I had also spotted on a few of these sites the
 responsive design was quite poor and it didn't translate well onto my mobiles browser e.g. no breathing room for text, zoomed in images and also the need to side scroll 
 to see the full content.
 
@@ -39,7 +39,7 @@ to see the full content.
 >  I need a straight forward website I can search for web developers without having to sign agency contracts
 > - Joe 
 
->  As a coder I want a website I can sign up to and browse and choose avaliable projects that I want to work on
+>  As a coder I want a website I can sign up to and browse and choose available projects that I want to work on
 > - Patrick
 
 >  I want a website that is easy to navigate and be able hire numerous coders to work together as a team
@@ -83,9 +83,9 @@ The aim of my project is to attract coders and businesses to join this website. 
 - The landing page that will Welcome the user and give a brief introduction about the website.
 - A section Explaining how the website works.
 - A small selection of currently available coders ready and their skill sets.
-- A section showing the user a few of the previous completed projects by the freelancers so the user can seen what can be achieved.
+- A section showing the user a few of the previous completed projects by the freelancers so the user can see what can be achieved.
 - CTA buttons on most sections to get the user to sign up quick and easily or to contact us directly.
-- A join us Modal on the index.html too keep the user on the same url so they dont feel like they're being sent somewhere else.
+- A join us Modal on the index.html to keep the user on the same url so they dont feel like they're being sent somewhere else.
 - A contact us page that will have a short form to fill out, an email address for contacting the support team and an address for the office building.
 - A Terms and Conditions page that will have the T&C's of the website. 
 
@@ -100,9 +100,9 @@ The aim of my project is to attract coders and businesses to join this website. 
 
 - A small section with a heading and some brief info about the site.
 
-- A footer a the bottom of the page with a copyright stamp, a link to terms and conditions and the company logo.
+- A footer at the bottom of the page with a copyright stamp, a link to terms and conditions and the company logo.
 
-- Top priorty for this site:
+- Top priority for this site:
   - The layout for each section to be simple and to the point.
   - A navigation bar.
   - The brief information about the section the user is on so after reading or viewing the section the user knows what they're looking at.
@@ -113,7 +113,7 @@ The aim of my project is to attract coders and businesses to join this website. 
 
  I went with a simple and exciting layout with contrasting colours.
 
- ##### Colours
+ ##### Colors
  > The blues and oranges on the page are quite inviting and energetic which I found could be applied to this website 
  as I wish to drawn people n but also match the energy of a fast-paced web developer.
     - I went with 3 types of blues: #303c6c, #B4dfe5, d2fdff. I read on [The psychology of color](https://99designs.ie/blog/creative-inspiration/psychology-color-web-design/)
