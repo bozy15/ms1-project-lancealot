@@ -289,7 +289,7 @@ section.bg-color {
 .cover {
     width: 100%;
     height: 55vmin;
-    background: url(assets/images/cover-bg-image.png) no-repeat center / contain;
+    background: url(../assets/images/cover-bg-image.png) no-repeat center / contain;
     background-size: 100vmin;
     padding: 0 3rem; 
     position: relative;
@@ -505,9 +505,23 @@ section.terms-section dl, ol, ul {
 /* ------- Breakpoints */
 
 @media only screen and (max-width: 1024px){
+    /* ------- Navbar Breakpoint */
+    header .nav-item:last-child {
+    /* padding-right: 2em; */
+    }
+
+    section.terms-section dl, ol, ul {
+    text-align: initial;
+    /* margin-left: 7.1em; */
+    }
+    /* ------- Contact us Breakpoint */
     div.contact-section div.row.text-center {
     padding-top: 3.5em;
  }
+    iframe {  /* This code will adjust the size of google maps so it is centered and contained within the jumbotron */       
+    width: -webkit-fill-available;
+}
+ 
 }
 
 @media only screen and (max-width: 768px) {
@@ -533,17 +547,67 @@ div.about-content>h2{
 
 }
 @media only screen and (max-width: 425px) {
-
-    i.fa-align-right:before {
+    i.fa-align-right:before { /* Changes color and size of hamburger menu */
     font-size: 1.4rem;
     color: #fc7100;
-    }  
+    } 
+    
+    header .nav-item:last-child { /* line 541-548 positions nav-links to the left and reducs the join us buton size */
+    padding-right: 14em;
+    }
+
+    section.terms-section dl, ol, ul {
+    text-align: initial;
+    margin-left: -0.9em;
+}
+
+    /* -------- Welcome Section Breakpoint */
+    img.welcome-img {
+    padding-top: 6rem;
+    width: 100%;
+    height: 26em;
+    } 
+
+    /* -------- How it works Section Breakpoint */
+    .about-cards img.card-img-top {
+    padding: 9.2vmin;
+    }
+
+    img.card-img-top {
+    width: 68vmin;
+    height: 15.5em;
+    margin-bottom: -2em;
+    }
+
+    .about-cards .card-text {
+    padding: 5vmin 6vmin;
+    }
+
+    /* -------- Projects Section Breakpoint */
+    .projects img { /* This code from line 559-567 adjusts the image size on mobile devices */
+    height: 84vmin;
+    width: 76%;
+    }
+
+    img.img-width {
+    width: 100%;
+    height: 20rem;
+    }
+
+    .projects h4 {
+        font-size: 2em;
+    }
 
     /* -------- Contact Us Breakpoint */
     div.contact-section.container-fluid.justify-content-center {
         height: 90vmin;
     }
+
     /* -------- Footer Breakpoint */
+    footer { /* This code adds padding-right to the conteent of the footer to center it */
+    padding: 1em 1.2em 1em 2em;
+    }
+
     .col-md-5.txt-left{
         text-align: center;
         padding-bottom: 5px;
