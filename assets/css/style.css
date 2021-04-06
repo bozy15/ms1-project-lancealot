@@ -316,8 +316,8 @@ div.box-shadow {
 }
 
 .projects img {
-    height: 20rem; 
-    width: 50%; 
+    height: 27rem;
+    width: 80vmin;
 }
 
 img.img-width {
@@ -507,21 +507,36 @@ section.terms-section dl, ol, ul {
 @media only screen and (max-width: 1024px){
     /* ------- Navbar Breakpoint */
     header .nav-item:last-child {
-    /* padding-right: 2em; */
+    padding-right: 0px;
     }
 
     section.terms-section dl, ol, ul {
     text-align: initial;
-    /* margin-left: 7.1em; */
+    margin-left: 0em;
     }
+
+    /* ------- Previous project Breakpoint */
+    .cover .content>h2 {
+        margin: 1em;
+    }
+
+    .projects img {
+    height: 37rem;
+    width: 80%;
+    }
+
+    img.img-width {
+    width: 100%;
+    height: 37rem;
+    }
+
     /* ------- Contact us Breakpoint */
     div.contact-section div.row.text-center {
     padding-top: 3.5em;
- }
+    }
     iframe {  /* This code will adjust the size of google maps so it is centered and contained within the jumbotron */       
     width: -webkit-fill-available;
-}
- 
+    } 
 }
 
 @media only screen and (max-width: 768px) {
@@ -584,6 +599,10 @@ div.about-content>h2{
     }
 
     /* -------- Projects Section Breakpoint */
+    .cover .content>h2 {
+        margin-top: -2em;
+    }
+
     .projects img { /* This code from line 559-567 adjusts the image size on mobile devices */
     height: 84vmin;
     width: 76%;
@@ -591,7 +610,7 @@ div.about-content>h2{
 
     img.img-width {
     width: 100%;
-    height: 20rem;
+    height: 84vmin;
     }
 
     .projects h4 {
@@ -623,6 +642,70 @@ div.about-content>h2{
     /* -------- Terms footer Breakpoint */
     .col-md-6 {
         text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 541px) {
+    /* ---- How it works breakpoint */
+    .about-cards img.card-img-top {
+    padding: 4.2em;
+    }
+
+    img.card-img-top {
+    width: 100%;
+    height: 21.5em;
+    }
+
+    .about-cards .card-text {
+    padding: 6vmin 10vmin;
+    }
+
+    /* ---- Footer breakpoint */
+    footer { /* This code adds padding-right to the conteent of the footer to center it */
+    padding: 1em 1.2em 1em 2em;
+    }
+
+    .col-md-5.txt-left{
+        text-align: center;
+        padding-bottom: 5px;
+    }
+
+    .col-md-4.txt-right p {
+        text-align: center;
+    }
+
+    .col-md-3.txt-left {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 281px) {
+    /* ---- How it works breakpoint */
+    .about-cards img.card-img-top {
+    margin-bottom: 0em;
+    padding: 1.2em
+    }
+
+    img.card-img-top {
+    width: 100%;
+    height: 9.5em;
+    }
+
+    /* ---- Freelancer section breakpoint */
+    .breakpoint-margin.row {
+    margin-left: -2em;
+    }
+
+    /* ---- Previous projects breakpoint */
+    .cover .content>h2 {
+        margin-top: -5em;
+    }
+
+    /* ---- Contact us breakpoint */
+    div.contact-section.container-fluid.justify-content-center {
+    height: 110vmin;
     }
 
 }
