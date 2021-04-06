@@ -186,7 +186,6 @@ The aim of my project is to attract coders and businesses to join this website. 
 <meta> tags and the images I had used on the website had not been given any height or width.
 
 
-
 ## Code Validation
    HTML - [HTML validator](https://validator.w3.org/)
   
@@ -201,12 +200,26 @@ but I ran into issues when trying on smaller screens as the content would wrap o
 I solved this by creating a breakpoint and limiting it to 425px and then applying the relevant css to achieve the center content.
 > - I had used position: absolute; on my navbar-brand img to prevent my nav-links from wrapping as the screen got smaller and in doing so the hamburger menu was now hiding behind the logo.
 It was unable to open as so removed the position css and also replaced the navbar-brand container from a div to an anchor tag to reduce sizing which solved both issues.
+> - I noticed that my Iframe that contained my google maps would overflowed its container while the screen was above 992px. I inspected this issue on google chrome and used a inline style width: webkit-fill-available in the iframe tag to override the other CSS and it seemed to do the trick and is responsive on all screens now.
+> - When testing the webpages on different screen sizes I noticed some images were becoming squashed or stretch due to the padding, height or width being too high or too low. I used breakpoints to work around these issues on multiple screen sizes.
 
+---
+
+## Deployment 
+
+I deployed this project on Github using the following steps:
+
+> All of my code that has been written on Gitpod.
+> I used Git to commit all my code and pushed it to Github where I stored it on this repo.
+> In the settings section of this repo I scrolled down to the Github pages section.
+> I clicked on the source dropdown button and selected "Master branch".
+> The URL for this project was then shown after about 5 seconds.
+> After I deployed this site I then posted it to the 'peer-review-section' on the CI slack community and I had my peers take a look to see if they could spot any issues I may have missed or points I could improve on.
 
 ## Credits
 
 > - [Code Institute](https://learn.codeinstitute.net/dashboard): Was the source for almost all my knowledge.
-> - [Slack](https://app.slack.com/client/T0L30B202/CPCT0MBKL/thread/CGWQJQKC5-1559844764.046500): If I was stuck on a problem chances are there was already a solution on here.
+> - [Slack](https://app.slack.com/client/T0L30B202/CPCT0MBKL/thread/CGWQJQKC5-1559844764.046500): If I was stuck on a problem chances are there was already a solution on here. I also took inspiration from previously completed MS1 project as a point if reference as where to begin and assistance in readme.md structure.
 > - Images were taken from a free to use website [Hiclipart](https://www.hiclipart.com/) and [Google](https://www.google.ie/) only images with a creative common license were used.
 > - [Bootstrap v4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was used in the layout of this website
 > - [Stack overflow](https://stackoverflow.com/) as a general resource if I couldn't find a solution on slack community.  
